@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.Test_login">
+        <methods>
+          <include name="Cred"/>
+          <include name="init"/>
+          <include name="log"/>
+          <include name="Obj"/>
+        </methods>
+      </class> <!-- Test.Test_login -->
+      <class name="Test.Test_CreatReviewRquest">
+        <methods>
+          <include name="ReviewTest"/>
+          <include name="init"/>
+          <include name="log"/>
+          <include name="Obj"/>
+        </methods>
+      </class> <!-- Test.Test_CreatReviewRquest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
